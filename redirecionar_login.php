@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lib Manager - Voltar</title>
+    <title>Projeto PHP - Voltar</title>
 </head>
 <body>
     <header>
-        <h1>Lib -Manager</h1>
-        <h3>Gerenciamento de obras literárias</h3>
+        <h1>Projeto PHP</h1>
+        <h3>Usando a Linguagem PHP</h3>
     </header>
     <main>
         <section>

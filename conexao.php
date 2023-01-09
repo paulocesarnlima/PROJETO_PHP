@@ -1,7 +1,7 @@
 <?php 
 
 $host = 'localhost';
-$dbname = 'libmanager';
+$dbname = 'projeto_php';
 $user = 'root'; //Informe seu usuario do PHP MY ADMIN AQUI
 $pass = '';
 $port = 3306; //NÃO SE APLICA NO MOMENTO, SERÁ USADA FUTURAMENTE NA CONEXAO COM O DB VIA PDO

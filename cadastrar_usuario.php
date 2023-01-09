@@ -65,27 +65,24 @@ if (count($_POST) > 1) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/cadastroFuncionario.css">
-    <title>Cadastro - Lib Manager</title>
+    <link rel="stylesheet" href="./assets/css/cadastroUsuario.css">
+    <title>Cadastro - Projeto PHP</title>
 </head>
 
 <body>
     <!-- Header -->
     <header class="header">
-        <img class="logo" src="./assets/img/logo.png" alt="logolibmanager">
+        <img class="logo" src="./assets/img/PHP1.jfif" alt="logophp">
         <nav class="container-menu">
             <ul class="list-menu">
-                <a class="link" href="home.php">
+                <a class="link" href="index.php">
                     <li>Home</li>
                 </a>
-                <a class="link" href="cadastrar_livros.php">
-                    <li>Cadastrar Livro</li>
+                <a class="link" href="sistema_login.php">
+                    <li>Login</li>
                 </a>
-                <a class="link" href="cadastrar_funcionario.php">
-                    <li>Cadastrar Funcionário</li>
-                </a>
-                <a class="link" href="index.php">
-                    <li>Pesquisar Livros</li>
+                <a class="link" href="cadastrar_usuario.php">
+                    <li>Cadastrar Usuario</li>
                 </a>
                 <a class="link" href="sistema_logout.php">
                     <li>Sair</li>
@@ -97,7 +94,7 @@ if (count($_POST) > 1) {
     <!-- Corpo ( container) -->
     <main>
         <section>
-            <h2>Lib Manager - Formulário de Cadastro de Funcionário</h2>
+            <h2>Projeto PHP - Formulário de Cadastro de Usuario</h2>
             <p>
                 Informe seus dados cadastrais:
             </p>

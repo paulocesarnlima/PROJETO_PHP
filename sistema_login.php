@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/login.css">
     <script src="https://kit.fontawesome.com/a91a789ba3.js" crossorigin="anonymous"></script>
-    <title>Login - Lib Manager</title>
+    <title>Login - Projeto PHP</title>
 </head>
 
 <body>
 
     <main class="container">
         <form class="container-formulario" action="" method="post">
-            <h1 class="titulo">Lib Manager</h1>
+            <h1 class="titulo">Projeto PHP</h1>
             <h2 class="sub-titulo">Login</h2>
 
             <div class="container_input">
@@ -62,7 +62,7 @@ if (isset($_POST['cpf'])) {
         if (!isset($_SESSION))
             session_start();
         $_SESSION['usuario'] = $usuario['id_usuario'];
-        header("Location: home.php");
+        header("Location: index.php");
     } else {
 
 ?>
@@ -70,8 +70,8 @@ if (isset($_POST['cpf'])) {
             Swal.fire({
 
                 title: 'Acesso Negado',
-                text: 'Socorro!!!! Aministrador!!!!',
-                imageUrl: 'https://media.tenor.com/6Njik3Yk4DEAAAAC/esqueceram-de.gif',
+                text: 'Procure o Aministrador!!!!',
+                imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKfCNDIX9mXrb-a1p_MNgJQU4O-xanLeLVuA&usqp=CAU',
                 imageWidth: 400,
                 imageHeight: 200,
                 imageAlt: 'Custom image',
